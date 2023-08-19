@@ -1,25 +1,16 @@
 Overview:
 
-
+the purpose of this analysis.
 From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
 
 
-The instructions below are now updated to use Google Colab for this assignment instead of Jupyter Notebook. If you have already started this assignment using a Jupyter Notebook then you can continue to use Jupyter instead of Google Colab.
-
-Create a new repository for this project called deep-learning-challenge. Do not add this Challenge to an existing repository.
-
-
-Step 4: Write a Report on the Neural Network Model
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
-
-The report should contain the following:
-
-Overview of the analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists and images to support your answers, address the following questions:
+ for this assignment started using a Jupyter Notebook then you can continue to use Jupyter instead of Google Colab.
 
 Data Preprocessing
+starates the data by saprte,traning value to check if there is neron  this model benn used to prodect the data  
+i have three layers ths activation summer for the model 
+Results: Using bulleted lists and images to support your answers, address the following questions:
 
 What variable(s) are the target(s) for your model?
 
@@ -51,6 +42,7 @@ IS_SUCCESSFUL                2
 
 What variable(s) are the features for your model?
 
+
 APPLICATION_TYPE—Alphabet Soup application type
 AFFILIATION—Affiliated sector of industry
 CLASSIFICATION—Government organization classification
@@ -69,7 +61,7 @@ Compiling, Training, and Evaluating the Model
 EIN and NAME—Identification columns have been dropped without affecting the model.
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-The layer 3 layer and 840 
+The layer 3 layer and 840 promes
 
 # Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
 input_number = len(X_train[0])
@@ -118,4 +110,10 @@ Loss: 0.5633616806883853, Accuracy: 0.7264139652252197
 
 What steps did you take in your attempts to increase model performance?
 
+
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+My recommendation about this deep learning model after I developed the n=modle I was able to achieve 72% accuracy I believe this is a good module to put into practice. the accuracy hirer close to one is the perfect model 
+my recommendation  is to get high accuracy than 72%
+ 1-add more data 
+ 2-check data cleaning
+ 3- use different model 
