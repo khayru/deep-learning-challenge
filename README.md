@@ -1,15 +1,12 @@
 Overview:
 
-the purpose of this analysis.
-From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
+The purpose of this analysis from Alphabet Soup’s business team I was given the CSV  file containing more than 34,000 organizations that have received. 
 
-
-
- for this assignment started using a Jupyter Notebook then you can continue to use Jupyter instead of Google Colab.
+For this assignment, I started using a Jupyter Notebook 
 
 Data Preprocessing
-starates the data by saprte,traning value to check if there is neron  this model benn used to prodect the data  
-i have three layers ths activation summer for the model 
+dropping  columns EIN and NAME—Identification columns
+
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
 What variable(s) are the target(s) for your model?
@@ -40,7 +37,7 @@ SPECIAL_CONSIDERATIONS       2
 ASK_AMT                   8747
 IS_SUCCESSFUL                2
 
-What variable(s) are the features for your model?
+What variable(s) are the features of your model?
 
 
 APPLICATION_TYPE—Alphabet Soup application type
@@ -110,10 +107,13 @@ Loss: 0.5633616806883853, Accuracy: 0.7264139652252197
 
 What steps did you take in your attempts to increase model performance?
 
+it is not applied to add layers or neurons.
 
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-My recommendation about this deep learning model after I developed the n=modle I was able to achieve 72% accuracy I believe this is a good module to put into practice. the accuracy hirer close to one is the perfect model 
+Summary: 
+Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+My recommendation about this deep learning model after I developed the n=modle I was able to achieve 72% accuracy. I believe this is a good module to put into practice. An accuracy close to one  means is the good model 
 my recommendation  is to get high accuracy than 72%
  1-add more data 
  2-check data cleaning
- 3- use different model 
+ 3- use a different model 
