@@ -1,10 +1,7 @@
 Overview:
 
 The purpose of this analysis from Alphabet Soup’s business team I was given the CSV  file containing more than 34,000 organizations that have received. 
-
 For this assignment, I started using a Jupyter Notebook 
-
-
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 What variable(s) are the target(s) for your model?
