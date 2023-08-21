@@ -4,14 +4,11 @@ The purpose of this analysis from Alphabet Soup’s business team I was given th
 
 For this assignment, I started using a Jupyter Notebook 
 
-Data Preprocessing
-dropping  columns EIN and NAME—Identification columns
+
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
-
 What variable(s) are the target(s) for your model?
 
-EIN and NAME—Identification columns
 APPLICATION_TYPE—Alphabet Soup application type
 AFFILIATION—Affiliated sector of industry
 CLASSIFICATION—Government organization classification
@@ -22,35 +19,8 @@ INCOME_AMT—Income classification
 SPECIAL_CONSIDERATIONS—Special considerations for application
 ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectively
-Before You Begin
-IMPORTANT
-# Determine the number of unique values in each column.
-application_df.nunique()
-APPLICATION_TYPE            17
-AFFILIATION                  6
-CLASSIFICATION              71
-USE_CASE                     5
-ORGANIZATION                 4
-STATUS                       2
-INCOME_AMT                   9
-SPECIAL_CONSIDERATIONS       2
-ASK_AMT                   8747
-IS_SUCCESSFUL                2
 
 What variable(s) are the features of your model?
-
-
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special considerations for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
-
 
 What variable(s) should be removed from the input data because they are neither targets nor features?
 Compiling, Training, and Evaluating the Model
@@ -58,7 +28,7 @@ Compiling, Training, and Evaluating the Model
 EIN and NAME—Identification columns have been dropped without affecting the model.
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-The layer 3 layer and 840 promes
+The layer 3 layer and 840 promes below show the code resule.
 
 # Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
 input_number = len(X_train[0])
@@ -106,14 +76,14 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 Loss: 0.5633616806883853, Accuracy: 0.7264139652252197
 
 What steps did you take in your attempts to increase model performance?
-
-it is not applied to add layers or neurons.
+No action was found, and no neurons have been  added
 
 Summary: 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
-My recommendation about this deep learning model after I developed the n=modle I was able to achieve 72% accuracy. I believe this is a good module to put into practice. An accuracy close to one  means is the good model 
-my recommendation  is to get high accuracy than 72%
+My recommendation about this deep learning model, after I developed the model I was able to achieve 72% accuracy. I believe this is a good module to put into practice. An accuracy close to considering to be a good model 
+my opping is to get high accuracy than 72% by
+
  1-add more data 
  2-check data cleaning
  3- use a different model 
