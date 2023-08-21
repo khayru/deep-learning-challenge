@@ -29,25 +29,6 @@ EIN and NAME—Identification columns have been dropped without affecting the mo
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 The layer 3 layer, 8 hidden_nodes_layer1,  and 840 promes.
 
-# Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
-input_number = len(X_train[0])
-hidden_nodes_layer1 = 8
-hidden_nodes_layer2 = 5
-
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-dense (Dense)                (None, 8)                 840       
-_________________________________________________________________
-dense_1 (Dense)              (None, 5)                 45        
-_________________________________________________________________
-dense_2 (Dense)              (None, 1)                 6         
-=================================================================
-Total params: 891
-Trainable params: 891
-Non-trainable params: 0
-
-
 Were you able to achieve the target model performance?
 I was able to achieve the target of 72% model accuracy 
 
