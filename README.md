@@ -1,9 +1,11 @@
+
 Overview:
 
 The purpose of this analysis from Alphabet Soup’s business team I was given the CSV  file containing more than 34,000 organizations that have received. 
-For this assignment, I started using a Jupyter Notebook 
+For this assignment, I started using a Jupyter Notebook
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
+
 What variable(s) are the target(s) for your model?
 
 APPLICATION_TYPE—Alphabet Soup application type
@@ -25,30 +27,13 @@ Compiling, Training, and Evaluating the Model
 EIN and NAME—Identification columns have been dropped without affecting the model.
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-The layer 3 layer and 840 promes below show the code resule.
+The layer 3 layer, 8 hidden_nodes_layer1,  and 840 promes.
 
 # Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
 input_number = len(X_train[0])
 hidden_nodes_layer1 = 8
 hidden_nodes_layer2 = 5
 
-nn = tf.keras.models.Sequential()
-
-# First hidden layer
-nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer1, input_dim = input_number, activation = "relu"))
-
-# Second hidden layer
-nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
-
-# Output layer
-nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
-
-# Check the structure of the model
-nn.summary()
-WARNING:tensorflow:From c:\Users\19802\anaconda3\envs\PythonData\lib\site-packages\tensorflow\python\ops\init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
-Instructions for updating:
-Call initializer instance with the dtype argument instead of passing it to the constructor
-Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -64,7 +49,7 @@ Non-trainable params: 0
 
 
 Were you able to achieve the target model performance?
-achieve the target using testing the data to get an accuracy of 72% is a good module.
+I was able to achieve the target of 72% model accuracy 
 
 # Evaluate the model using the test data
 model_loss, model_accuracy = nn.evaluate(X_test_scaled,y_test,verbose=2)
@@ -73,10 +58,9 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 Loss: 0.5633616806883853, Accuracy: 0.7264139652252197
 
 What steps did you take in your attempts to increase model performance?
-No action was found, and no neurons have been  added
+No action was found, and no neurons have been added.
 
 Summary: 
-
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 My recommendation about this deep learning model, after I developed the model I was able to achieve 72% accuracy. I believe this is a good module to put into practice. An accuracy close to considering to be a good model 
