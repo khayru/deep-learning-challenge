@@ -79,6 +79,7 @@ What steps did you take in your attempts to increase model performance?
 No action was found, and no neurons have been  added
 
 Summary: 
+
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 My recommendation about this deep learning model, after I developed the model I was able to achieve 72% accuracy. I believe this is a good module to put into practice. An accuracy close to considering to be a good model 
