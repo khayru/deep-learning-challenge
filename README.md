@@ -27,6 +27,7 @@ Compiling, Training, and Evaluating the Model
 EIN and NAME—Identification columns have been dropped without affecting the model.
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+The model designed a set of one neural and two hidden layers 
 The layer 3 layer, 8 hidden_nodes_layer1,  and 840 promes.
 
 Were you able to achieve the target model performance?
@@ -39,14 +40,14 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 Loss: 0.5633616806883853, Accuracy: 0.7264139652252197
 
 What steps did you take in your attempts to increase model performance?
-No action was found, and no neurons have been added.
+I added a third hidden layer the result was the accuracy increased by only 1% from 72% to 73%
 
 Summary: 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
-My recommendation about this deep learning model, after I developed the model I was able to achieve 72% accuracy. I believe this is a good module to put into practice. An accuracy close to considering to be a good model 
-my opping is to get high accuracy than 72% by
+After I developed the model I was able to achieve 73% accuracy. I believe this is a good module to put into practice.
+My recommendation is to get a higher accuracy than 73% by
 
  1-add more data 
  2-check data cleaning
- 3- use a different model 
+ 3- Use a different model 
