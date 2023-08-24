@@ -1,8 +1,8 @@
 
 Overview:
 
-The purpose of this analysis from Alphabet Soup’s business team I was given the CSV  file containing more than 34,000 organizations that have received. 
-For this assignment, I started using a Jupyter Notebook
+The purpose of this analysis from Alphabet Soup’s business team was to choose which applicants have the best chance of success should they fund them. I was given the CSV  file containing more than 34,000 organizations that have received funding from Alphabet soup over the year.
+For this assignment, I started by using Google Collapse and Visual Studio. I uploaded the data and then dropped the unnecessary columns.
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
@@ -21,8 +21,9 @@ IS_SUCCESSFUL—Was the money used effectively
 
 What variable(s) are the features of your model?
 
+The columns for successful organizations.
+
 What variable(s) should be removed from the input data because they are neither targets nor features?
-Compiling, Training, and Evaluating the Model
 
 EIN and NAME—Identification columns have been dropped without affecting the model.
 
@@ -40,14 +41,14 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 Loss: 0.5633616806883853, Accuracy: 0.7264139652252197
 
 What steps did you take in your attempts to increase model performance?
-I added a third hidden layer the result was the accuracy increased by only 1% from 72% to 73%
+I added a third hidden layer. The result was the accuracy increased by only 1% from 72% to 73%
 
 Summary: 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 After I developed the model I was able to achieve 73% accuracy. I believe this is a good module to put into practice.
-My recommendation is to get a higher accuracy than 73% by
+My recommendation is to get a higher accuracy than 73% by:
 
- 1-add more data 
+ 1-adding more data 
  2-check data cleaning
  3- Use a different model 
